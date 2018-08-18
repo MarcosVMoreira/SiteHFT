@@ -1,0 +1,70 @@
+body {
+    font-family: "Quattrocento Sans", sans-serif;
+    padding-bottom: 40px;
+    background-color: #eee;
+    
+}
+
+.navbar-hft {
+    /*alterar a cor do menu de navegação superior */
+    background-color: #06595E;
+}
+
+#navbar-brand-hftLogo {
+    height: 40px;
+    margin-top: -10px;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #969191;  /*Sets the text hover color on navbar*/
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white; /*Change active text color here*/
+}
+
+.navbar-default .navbar-nav > .active{
+    color: #000;
+    background: #07494C;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background: #07494C;
+}
+
+h1, h2, h3 {
+     font-family: sans-serif, Montserrat;
+    
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background: #07494C;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+@media (max-width:760px){
+    .input-group {
+        margin-bottom: 5px;
+    }
+}
+
+.form-control {
+    width: 100%;
+}
+
+
+.brand {
+    max-height: 25px;
+}
+
+.panel {
+    background:#E0DFDF;}
